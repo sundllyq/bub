@@ -147,3 +147,6 @@ reference/
 backup/
 _version.py
 !website/src/lib/
+
+# Local Claude Code settings (per-machine permissions)
+.claude/settings.local.json
