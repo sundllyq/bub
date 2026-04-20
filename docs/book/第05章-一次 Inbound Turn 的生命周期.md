@@ -1,4 +1,4 @@
-# 一次 Inbound Turn 的生命周期
+# 第 5 章 一次 Inbound Turn 的生命周期
 
 > 定位：这一章解释 Bub 最核心的一条运行时主链。重点不是逐行讲 `process_inbound()`，而是说明：为什么一条 inbound 消息必须被拆成 `resolve_session -> load_state -> build_prompt -> run_model -> save_state -> render_outbound -> dispatch_outbound` 这些阶段，这种阶段化生命周期在解决什么问题，又把复杂度放到了哪里。  
 > 前置依赖：建议先读完《为什么 Bub 的核心不是 Agent，而是一条 Turn Pipeline》和《HookRuntime：Bub 的真实执行语义》。  

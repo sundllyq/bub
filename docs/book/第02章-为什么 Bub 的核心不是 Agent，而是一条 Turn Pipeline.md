@@ -1,4 +1,4 @@
-# 为什么 Bub 的核心不是 Agent，而是一条 Turn Pipeline
+# 第 2 章 为什么 Bub 的核心不是 Agent，而是一条 Turn Pipeline
 
 > 定位：解释 Bub 为什么把“一次 inbound 到 outbound 的完整处理链路”而不是 `Agent` 对象设为运行时核心，并说明这种选择如何影响扩展方式、宿主复用和复杂度分布。  
 > 前置依赖：已理解 Bub 要解决的基本问题，知道它有 `BubFramework`、builtin plugin、Channel、Tool、Skill 这些层；最好已读过 HookRuntime 的基本执行语义。  

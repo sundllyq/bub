@@ -1,4 +1,4 @@
-# HookRuntime：Bub 的真实执行语义
+# 第 4 章 HookRuntime：Bub 的真实执行语义
 
 > 定位：这一章解释 Bub 的 hook 体系到底由谁定义行为。重点不是介绍有哪些 hooks，而是说明：在当前实现里，真正决定优先级、first-result、批量收集、sync/async 兼容、错误观察和模型兼容路径的，不是 `@hookspec` 注解本身，而是 `HookRuntime` 与 `BubFramework` 的组合。  
 > 前置依赖：建议先读完《为什么 Bub 的核心不是 Agent，而是一条 Turn Pipeline》和《Core、Builtin、Host、Capability 的分层边界》。  

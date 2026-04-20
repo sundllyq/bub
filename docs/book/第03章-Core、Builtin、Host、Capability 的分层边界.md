@@ -1,4 +1,4 @@
-# Core、Builtin、Host、Capability 的分层边界
+# 第 3 章 Core、Builtin、Host、Capability 的分层边界
 
 > 定位：这一章解释 Bub 如何组织自己的系统边界。重点不是证明它有一套教科书式分层架构，而是回答：为什么仓库看起来分散，但主线没有失控；为什么有些东西属于 core，有些则被明确留在 builtin、host 或 capability 层。  
 > 前置依赖：建议先读完《Bub 在解决什么问题》和《为什么 Bub 的核心不是 Agent，而是一条 Turn Pipeline》。  
